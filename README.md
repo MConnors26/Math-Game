@@ -1,0 +1,1 @@
+This is a math game I created to help my son practice math. I've written this in a few different languages as I feel it features concepts that are important to understand and, therefore, privdes a solid background of these concepts within the languages. 
