@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="game.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATH GAME!!!!</title>
+</head>
+<body>
+    <div id="main">
+        <div id="gametitle">
+            <h1>Math Game!</h1>
+            <h3>Click the button below to display numbers. <br><br>Then click the play button to answer. <br><br>Click this top button again to play again!</h3>
+        </div>
+        <div id="generate">
+            <button id="play" onclick="disNums()">Click to Generate Numbers</button>
+        </div>
+        <div id="game1">
+            <div id="num1dis"></div>
+            <div id="plus"><h2>+</h2></div>
+            <div id="num2dis"></div>
+            <div id="eq"><h2>=</h2></div>
+            <input type="number" id="ans">
+        </div>
+        <div id="ans">
+            <button id="answer" onclick="play()">Play!</button>
+        </div>
+        <div id="res">
+            <h1 id="response"></h1>
+        </div>
+            <script src="game.js"></script>
+        </div>
+
+        <div id="scoreboard">
+            <div id="scrounds"><h1 id="rounds">Total Rounds Played: </h1><h2 id="total"></h2></div>
+            <div id="sccorrect"><h1 id="correct">Total Rounds Correct: </h1><h2 id="totCor"></h2></div>
+            <div id="scincorrect"><h1 id="incorrect">Total Rounds Incorrect: </h1><h2 id="totIncor"></h2></div>
+        </div>
+    </div>
+</body>
+</html>

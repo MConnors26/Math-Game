@@ -1,0 +1,114 @@
+body{
+    background-color: darkblue;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+    text-align: center;
+}
+
+#play {
+    background-color: black;
+    height: 40px;
+    font-size: 20px;
+    color: whitesmoke;
+    border-radius: 30px;
+    border: 5px solid white;
+    transition: 0.5s;
+}
+
+#play:hover {
+    border: 5px solid red;
+}
+
+#answer {
+    background-color: black;
+    height: 40px;
+    font-size: 20px;
+    color: whitesmoke;
+    border-radius: 30px;
+    border: 5px solid white;
+    transition: 0.5s;
+}
+
+#answer:hover {
+    border: 5px solid red;
+}
+#game1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#num1dis {
+    padding: 25px;
+}
+
+#num2dis {
+    padding: 25px;
+}
+
+#eq {
+    padding: 25px;
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: center;
+}
+
+#scrounds {
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    border: 3px solid white;
+    font-size: 10px;
+    text-align: center;
+}
+
+#sccorrect {
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    border: 3px solid white;
+    font-size: 10px;
+    text-align: center;
+}
+
+#scincorrect {
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    border: 3px solid white;
+    font-size: 10px;
+    text-align: center;
+}
+
+#total {
+    color: red;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#totCor {
+    color: red;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 70px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#totIncor {
+    color: red;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 70px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
